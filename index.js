@@ -20,7 +20,7 @@ myForm.addEventListener('submit', function(e) {
     e.preventDefault();
     let searchString = document.querySelector('.search-bar').value
     let urlEncodedSearchString = encodeURIComponent(searchString);
-    axios.get("http://www.omdbapi.com/?apikey=b43843a0&s=" + urlEncodedSearchString)
+    axios.get("https://www.omdbapi.com/?apikey=b43843a0&s=" + urlEncodedSearchString)
         .then(function (response) {
             movieData = response.data.Search;
             movieContainer.innerHTML = renderMovies(response.data.Search);
