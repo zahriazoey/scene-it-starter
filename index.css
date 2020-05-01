@@ -1,16 +1,20 @@
 body {
-	background-color: #B2E9FD;
+	background-color: turquoise;
 }
 
 .header h2 {
-	color: #DC4247;
+	color: teal;
 }
 
 .header p {
-	color: #50524F;
+	color: black;
 }
 
 .results {
 	margin-top: 20px;
 }
 
+.btn {
+	background-color: teal;
+}
+	
